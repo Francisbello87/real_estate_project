@@ -24,6 +24,7 @@ body {
   position: sticky;
   z-index: 200;
   top: 30px;
+  cursor: pointer;
 }
 
 @keyframes fadeDown {
