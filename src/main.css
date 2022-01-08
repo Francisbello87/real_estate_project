@@ -145,6 +145,7 @@ body {
 }
 .header .listings a:hover {
   color: var(--primary-color);
+  text-decoration: underline;
 }
 .header .listings .fa-long-arrow-alt-right {
   color: var(--primary-color);
