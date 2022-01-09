@@ -5,7 +5,18 @@ function Apartments(props) {
     <section className="apartments">
       <div className="property">
         <div className="details">
-          <img src={process.env.PUBLIC_URL + props.image} alt="bedroom pic" />
+          <figure class="snip1193">
+            <img src={process.env.PUBLIC_URL + props.image} alt="bedroom pic" />
+            <figcaption>
+              <a href="#" class="bottom-left">
+                <i class="fas fa-heart"></i>
+              </a>
+              <a href="#" class="bottom-right">
+                <i class="fas fa-phone-alt"></i>
+              </a>
+            </figcaption>
+          </figure>
+
           <h1>{props.title}</h1>
           <ul>
             <li>

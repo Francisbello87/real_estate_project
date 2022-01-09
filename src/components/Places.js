@@ -10,16 +10,64 @@ function Places(props) {
           <span>
             <ul>
               <li>
-                Looking For <i class="fas fa-chevron-down"></i>
+                <label for="cars">Looking For:</label>
+                <select name="cars" id="cars">
+                  <option
+                    disabled="disabled"
+                    selected="selected"
+                    value="please select"
+                  >
+                    Please select
+                  </option>
+                  <option value="bungalow">Bungalow</option>
+                  <option value="semi-detached">Duplex, semi-detached</option>
+                  <option value="terraced house">Terraced house</option>
+                </select>
               </li>
               <li>
-                Location <i class="fas fa-chevron-down"></i>
+                <label for="cars">Location:</label>
+                <select name="cars" id="cars">
+                  <option
+                    disabled="disabled"
+                    selected="selected"
+                    value="please select"
+                  >
+                    Please select
+                  </option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
+                </select>
               </li>
               <li>
-                Property Type <i class="fas fa-chevron-down"></i>
+                <label for="cars">Property Type:</label>
+                <select name="cars" id="cars">
+                  <option
+                    disabled="disabled"
+                    selected="selected"
+                    value="please select"
+                  >
+                    Please select
+                  </option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
+                </select>
               </li>
               <li>
-                Price <i class="fas fa-chevron-down"></i>
+                <label for="cars">Price:</label>
+                <select name="cars" id="cars">
+                  <option
+                    disabled="disabled"
+                    selected="selected"
+                    value="please select"
+                  >
+                    Please select
+                  </option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
+                </select>
               </li>
             </ul>
           </span>

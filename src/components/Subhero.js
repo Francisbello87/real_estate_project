@@ -16,6 +16,9 @@ function Subhero() {
           simul atque integre iudicante itaque aiunt hanc quasi involuta
           aperiri, altera occulta quaedam et voluptatem accusantium doloremque.
         </p>
+        <button className="secondary-btn">
+          Learn More<i class="fas fa-long-arrow-alt-right"></i>
+        </button>
       </span>
     </div>
   );
