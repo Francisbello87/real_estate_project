@@ -2,7 +2,7 @@ import React from "react";
 
 function Apartments(props) {
   return (
-    <section className="apartments">
+    <section className="apartments wrapper">
       <div className="property">
         <div className="details">
           <figure class="snip1193">

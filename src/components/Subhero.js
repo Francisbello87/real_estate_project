@@ -2,7 +2,7 @@ import React from "react";
 
 function Subhero() {
   return (
-    <div className="subhero">
+    <section className="subhero ">
       <img
         src={process.env.PUBLIC_URL + "/images/user.png"}
         alt="Strategic meeting pic"
@@ -20,7 +20,7 @@ function Subhero() {
           Learn More<i class="fas fa-long-arrow-alt-right"></i>
         </button>
       </span>
-    </div>
+    </section>
   );
 }
 export default Subhero;
