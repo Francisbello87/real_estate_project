@@ -19,7 +19,7 @@ function Navbar() {
           <a href="#">Contact</a>
         </li>
         <li>
-          <a href="#" className="primary-btn">
+          <a href="#" className="primary-btn slide_right">
             Work with us<i class="fas fa-long-arrow-alt-right"></i>
           </a>
         </li>

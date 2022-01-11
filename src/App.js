@@ -6,6 +6,7 @@ import Places from "./components/Places";
 import Apartments from "./components/Apartments";
 import After from "./components/After";
 import Reviews from "./components/Reviews";
+import Footer from "./components/Footer";
 import data2 from "./data2";
 import data from "./data.js";
 
@@ -25,6 +26,7 @@ function App() {
       <div className="card-contents">{apartmentContents}</div>
       <After />
       <div className="testimonial">{reviewsContents}</div>
+      <Footer />
     </div>
   );
 }
